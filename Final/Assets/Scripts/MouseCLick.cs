@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class MouseCLick : MonoBehaviour
 {
-    Vector3 mousePositionOffset;
-    
-    private Vector3 GetMouseWorldPosition()
-    {
-        return Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    }
-    private void OnMouseDown()
-    {
-        mousePositionOffset = gameObject.transform.position - GetMouseWorldPosition();
-    }
+    public GameObject UnitPrefab;
 
-    private void OnMouseDrag()
+    private void Update()
     {
-        transform.position = GetMouseWorldPosition() + mousePositionOffset;
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Instantiate(UnitPrefab, transform.position, Quaternion.identity);
+        }
     }
 }

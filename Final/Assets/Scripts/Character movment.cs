@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Charactermovment : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject Castle;
+    public GameObject Unit;
+    public float speed;
+    // Start is called befre the first frame update
     void Start()
     {
         
@@ -13,6 +16,6 @@ public class Charactermovment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * 10);
+        Unit.transform.position = Vector3.MoveTowards(Unit.transform.position, Castle.transform.position, speed);
     }
 }
