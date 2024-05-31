@@ -2214,8 +2214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06c9ee91b25dac4aaa33e36a470d014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Castle: {fileID: 3720659242693699347}
-  Unit: {fileID: 0}
+  Player2: {fileID: 4202060093443922847, guid: 5253ac8de7c5b404785a92acb822bcc9, type: 3}
+  Unit: {fileID: 3720659242693699347}
   speed: 0.1
 --- !u!1 &3743726121495310763
 GameObject:

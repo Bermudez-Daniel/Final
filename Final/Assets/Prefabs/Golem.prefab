@@ -340,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441733855153611705}
   - component: {fileID: 2483893928132058639}
-  - component: {fileID: 6608925181788119917}
+  - component: {fileID: 9052728581570944393}
   m_Layer: 0
   m_Name: Golem
   m_TagString: Untagged
@@ -386,7 +386,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6608925181788119917
+--- !u!114 &9052728581570944393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -395,12 +395,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4694513889974495567}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06c9ee91b25dac4aaa33e36a470d014, type: 3}
+  m_Script: {fileID: 11500000, guid: 002d8decf7a2b004294abd7033c4cc29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Castle: {fileID: 3720659242693699347, guid: d31da1dd7e1797843a3730c9fad8132e, type: 3}
-  Unit: {fileID: 4694513889974495567}
-  speed: 0
+  Unit: {fileID: 3720659242693699347, guid: d31da1dd7e1797843a3730c9fad8132e, type: 3}
+  Enemy: {fileID: 4694513889974495567}
+  speed: 0.1
 --- !u!1 &4865839005562450225
 GameObject:
   m_ObjectHideFlags: 0
